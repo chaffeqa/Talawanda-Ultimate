@@ -1,0 +1,111 @@
+/* 
+Document   : public_page
+Created on : Dec 15, 2009, 9:17:42 PM
+Author     : Quinn
+Description:
+Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#banner {
+    background: #cc0000 ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font: small-caps 25px/25px "Times New Roman", serif;
+    color: white ;
+    padding-left: 2em;
+    margin-bottom: 10px;
+}
+
+#main {
+    background: #000099;
+
+}
+
+#top-bar {
+    height: 3cm;
+    direction: ltr;
+    text-align: left;
+}
+
+#columns{
+}
+
+#side-bar{
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    width: 12em;
+    float:left;
+    height: 3.5in;
+    text-align:center;
+}
+
+
+#mainContent {
+    margin-left: 13em;
+    padding-top: 4ex;
+    padding-left: 2em;
+    background: white;
+    z-index: 1;
+    position:relative;
+    border: 2px solid red;
+    font-family:"Gill Sans MT";
+}
+
+#mainContent p{
+    line-height:114%;
+    font-size:18pt;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#mainContent li{
+    font-size:14pt;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#mainContent h1 {
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size:22pt;
+    font-weight: bold;
+    }
+
+
+#menu {
+    position:relative;
+    padding-top: 2em;
+    padding-left: 2em;
+    top:40px;
+}
+
+#menu ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+#menu li {
+    float:left;
+    display:inline;
+}
+
+
+#menu a{
+    padding-left: 20px;
+}
+
+#sideImage {
+    padding-left: 5px;
+    float: left;
+    width: 150px;
+    text-align:center;
+}
+
+

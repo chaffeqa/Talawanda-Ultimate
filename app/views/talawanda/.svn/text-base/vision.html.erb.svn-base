@@ -1,0 +1,12 @@
+
+<h1><u>Our Vision</u></h1>
+<p>To provide a safe and welcoming alternative environment in communities around
+the country. Where middle and high school aged students can interact with
+exemplary university students and host school faculty advisors through taking
+<span style="float:right; padding-left:2em; padding-top: 1em; margin-right:5em;">
+<%=image_tag("image319.jpg", :size => "150x150")%></span>
+part in athletics, community service, and academics.  Through building
+meaningful relationships, we ultimately want to make a difference by aiding in
+the personal, spiritual, and interpersonal development of upright and
+responsible members of society.</p>
+<br/><br/><br/>

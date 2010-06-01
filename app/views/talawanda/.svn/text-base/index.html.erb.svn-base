@@ -1,0 +1,11 @@
+<div style="float:left; padding-right:2em;">
+  <%=image_tag("image314.png", :size => "300x300")%><br/>
+  <%=image_tag("image329.gif", :size => "300x60")%>
+</div>
+<p>Welcome to the home of the <b>Ultimate After School Program!</b></p>
+<p>Whether you are a student at one of our host schools, a faculty member, a parent,
+  a university student interested in implementing your own UASP,  or just checking
+us out, we hope that this site helps you get to know more about who we are and what we stand for.</p>
+<p>Armando Alberto Ocando<br/>
+-Founder</p>
+<br/><br/><br/><br/><br/><br/>

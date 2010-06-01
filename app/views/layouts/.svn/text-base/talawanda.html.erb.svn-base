@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+  <head>
+    <title>Ultimate After School Program</title>
+    <%= stylesheet_link_tag 'talawanda', :media => "all" %>
+    <%= javascript_include_tag :defaults  %>
+  </head>
+  <body id="main">
+    <div id="banner">
+      <%= @page_title || "Talawanda After School Ultimate Frisbee Program" %>
+    </div>
+    <div id="top-bar">
+      <div id="sideImage">
+        <%= image_tag "image3371.jpg", :height => "110", :width => "110" %>
+      </div>
+      <div id="menu">
+        <ul>
+          <li><%= link_to image_tag("image331.gif", :border => 0, :mouseover => image_path("image297.gif")), {:controller => :talawanda, :action => :index} %></li>
+          <li><%= link_to image_tag("image301.gif", :border => 0, :mouseover => image_path("image303.gif")), {:controller => :talawanda, :action => :vision} %></li>
+          <li><%= link_to image_tag("image300.gif", :border => 0, :mouseover => image_path("image533.gif")), {:controller => :talawanda, :action => :mission} %></li>
+          <li><%= link_to image_tag("image364.gif", :border => 0, :mouseover => image_path("image540.gif")), {:controller => :talawanda, :action => :objectives} %></li>
+          <li><%= link_to image_tag("image368.gif", :border => 0, :mouseover => image_path("image551.gif")), {:controller => :talawanda, :action => :core_values} %></li>
+          <li><%= link_to image_tag("image369.gif", :border => 0, :mouseover => image_path("image560.gif")), {:controller => :talawanda, :action => :support} %></li>
+          <li><%= link_to image_tag("image370.gif", :border => 0, :mouseover => image_path("image563.gif")), {:controller => :talawanda, :action => :expansion} %></li>
+        </ul>
+        <div id="menu-hider"></div>
+      </div>
+    </div>
+
+    <div id="columns">
+      <div id="side-bar">
+        <%= link_to image_tag("image347.gif", :width => 125, :border => 0), {:controller => :talawanda, :action => :index} %><br/><br/>
+        <%= link_to image_tag("image296.gif", :width => 125, :border => 0), {:controller => :talawanda, :action => :index} %><br/><br/>
+        <%= link_to image_tag("image346.gif", :width => 125, :border => 0), {:controller => :talawanda, :action => :index} %><br/><br/>
+        <%= link_to image_tag("image348.gif", :width => 125, :border => 0), {:controller => :talawanda, :action => :index} %><br/><br/>
+      </div>
+      <div id="mainContent"><%= yield %></div>
+    </div>
+  </body>
+</html>

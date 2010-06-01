@@ -1,0 +1,20 @@
+<h1>T-Shirts for Participants</h1>
+<span style="float:left; margin-left:1em; padding-right:6em;">
+<%=image_tag("image3631.jpg", :size => "300x350")%></span>
+
+<p>We Need Your Support!</p>
+<p>
+  <b>Donations:</b>
+</p>
+<p>
+  <b>$15-40</b> - Recognition on Site<br/>
+  <b>$40-200</b> - Recognition on Shirts<br/>
+  <b>$200-500</b> -  Exclusive Recognition on Shirts<br/>
+  <b>$500-More</b> - Exclusive Frisbee AND Shirt Recognition
+</p>
+<p>
+  Write checks out to: <br/><br/>
+  ARXXXDO OXAXDO <br/>
+  208 East High Street<br/>
+  Oxford, Ohio, 45056
+</p><br/><br/>

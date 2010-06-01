@@ -1,0 +1,28 @@
+<h1>Ten Core Organizational Values</h1>
+<ul>
+  <li>We value loyalty, “Be true to yourself.  Be true to those you lead.”
+  -Wooden</li>
+
+<span style="float:right; margin-right:8em; padding-right:1em;">
+<%=image_tag("image405.jpg", :size => "200x200")%></span>
+
+  <li>We value true friendship and camaraderie.</li>
+
+  <li>We value commitment to serving our communities</li>
+
+  <li>We value mentors that provide direction and set a good example for others</li>
+
+  <li>We value honesty and  integrity</li>
+
+  <li>We value life time learning in and out of the classroom</li>
+
+  <li>We value selflessness and putting others before ourselves</li>
+
+  <li>We value Faith, and its potential life changing impact that it can have
+  on believers.</li>
+
+  <li>We value an active and healthy lifestyle</li>
+
+  <li>We value “Spirit of the Game”</li>
+</ul>
+<br/><br/>

@@ -1,0 +1,15 @@
+<h1>Mission of the Ultimate After School Program:</h1>
+
+  <span style="float:left; padding-right:1em;">
+<%=image_tag("image321.jpg", :size => "150x150")%></span>
+<p>To reach out to youth through the sport of Ultimate (Frisbee).  Our program
+will provide an open environment where all students feel safe and welcome,
+regardless of their backgrounds.  Our University Student Mentors and Faculty
+Advisors strive to develop meaningful relationships with the participants and
+desire to be a light in each of their lives.  University Student Mentors will
+also to commit to being available as resources on and off the field by serving
+as tutors in the classroom through partnership with Adopt-A-School.  In the
+end, The Ultimate After School Program will strive to have a direct and
+lasting positive impact on the lives of the participants.
+</p>
+<br/><br/>
